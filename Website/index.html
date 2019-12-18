@@ -11,36 +11,91 @@
     <link rel="stylesheet" href="assets/css/Rounded-Search-Input-field-1.css">
     <link rel="stylesheet" href="assets/css/Rounded-Search-Input-field.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script type="text/javascript" src="assets/js/d3/d3.js"></script>
+    <script type="text/javascript" src="assets/js/d3/d3.geom.js"></script>
+    <script type="text/javascript" src="assets/js/d3/d3.layout.js"></script>
+    <script type="text/javascript" src="assets/js/CodeFlower.js"></script>
+    <script type="text/javascript" src="assets/js/dataConverter.js"></script>
+    <style type="text/css">
+        circle.node {
+            cursor: pointer;
+            stroke: #000;
+            stroke-width: .5px;
+        }
+
+        circle.node.directory {
+            stroke: #9ecae1;
+            stroke-width: 2px;
+        }
+
+        circle.node.collapsed {
+            stroke: #555;
+        }
+
+        .nodetext {
+            fill: #252929;
+            font-weight: bold;
+            text-shadow: 0 0 0.2em white;
+        }
+
+        line.link {
+            fill: none;
+            stroke: #9ecae1;
+            stroke-width: 1.5px;
+        }
+
+        #visualitzation {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 
 <body>
     <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="background-color: #395c6b;">
-        <div class="container"><a class="navbar-brand" href="#" style="font-size: 20px;color: #e6e1c5;">MindMapper</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div
-                class="collapse navbar-collapse" id="navcol-1">
+        <div class="container"><a class="navbar-brand" href="#" style="font-size: 20px;color: #e6e1c5;">MindMapper</a><button
+                data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle
+                    navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="https://polytech.univ-nantes.fr/" style="color: #e6e1c5;">Polytech Nantes</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="https://polytech.univ-nantes.fr/"
+                            style="color: #e6e1c5;">Polytech Nantes</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="https://www.x5gon.org/" style="color: #e6e1c5;">X5-GON</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <h4 class="text-center" style="margin-top: 15px; color: #E6E1C5">Let's build a MindMap concerning the concept you want !</h4>
     <div class="container myContainer">
         <div class="row">
             <div class="col-6 offset-3">
                 <div class="input-group mb-3">
-                    <input type="text" id="concept" class="form-control" placeholder="Concept to mindmap.." aria-label="Concept to mindmap.." aria-describedby="basic-addon2">
+                    <input type="text" id="concept" class="form-control" placeholder="A concept" aria-label="A concept"
+                        aria-describedby="basic-addon2">
                     <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="button" id="search">Build the mindmap</button>
+                        <button class="btn btn-outline-secondary" type="button" id="search">Now Let's Graph</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div id="container">
+        <div id="visualization"></div>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/myjs.js"></script>
+    <script type="text/javascript">
+        var currentCodeFlower;
+        var createCodeFlower = function (json) {
+            var total = countElements(json);
+            w = window.innerWidth;
+            h = window.innerHeight * 0.75;
+            currentCodeFlower = new CodeFlower("#visualization", w, h).update(json);
+        };
+
+        d3.json('assets/data/data.json', createCodeFlower);
+
+    </script>
 </body>
 
 </html>
