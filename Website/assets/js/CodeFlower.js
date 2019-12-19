@@ -64,6 +64,7 @@ CodeFlower.prototype.update = async function (json) {
   this.node.transition()
     .attr("r", function (d) { return (d.children ? 5 : Math.pow(d.size, 2 / 5) || 3) * 6; });
 
+  var lastClick = null;
   // Enter any new nodes
   this.node.enter().append('svg:circle')
     .attr("class", "node")
@@ -73,12 +74,19 @@ CodeFlower.prototype.update = async function (json) {
       return "hsl(" + parseInt(360 / total * d.id, 10) + ",90%,70%)";
     })
     .on("click", (d) => {
-      if (d.children)
+      if (d.children){
+        if(lastClick !=  null){
+          console.log("bjjjj")
+          lastClick = null;
+        }
+        lastClick = d.name
+      }
         console.log("aggregation")
     })
     .on("dblclick", (d) => {
-      if (d.children)
+      if (d.children){
         console.log("update " + d.name);
+      }
       else
         window.open(d.address)
     });

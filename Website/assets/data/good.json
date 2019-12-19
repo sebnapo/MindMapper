@@ -1,0 +1,94 @@
+{
+  "name": "design",
+  "children": [
+    {
+      "name": "design process",
+      "description": "Atlas of Global Agriculture",
+      "children": [
+        {
+          "name": "Chemistry of Biomolecules I",
+          "address": "https://ocw.mit.edu/courses/chemistry/5-451-chemistry-of-biomolecules-i-fall-2005/assignments/ps2_sol.pdf",
+          "note": "5.451 is a half-semester introduction to natural product biosynthetic pathways. The course covers the assembly of complex polyketide, peptide, terpene and alkaloid structures. Discussion topics include chemical and biochemical strategies used to elucidate natural product pathways."
+        },
+        {
+          "name": "Probabilistic Systems Analysis and Applied Probability",
+          "address": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/unit-iv/MIT6_041SCF13_rec22_sol.pdf",
+          "note": "This course introduces students to the modeling, quantification, and analysis of uncertainty.&nbsp; The tools of probability theory, and of the related field of statistical inference, are the keys for being able to analyze and make sense of data. These tools underlie important advances in many fields, from the basic sciences to engineering and management."
+        },
+        {
+          "name": "Calculus Revisited: Complex Variables, Differential Equations, and Linear Algebra",
+          "address": "https://ocw.mit.edu/resources/res-18-008-calculus-revisited-complex-variables-differential-equations-and-linear-algebra-fall-2011/study-materials/MITRES_18_008_partI_sol04.pdf",
+          "note": "Calculus Revisited is a series of videos and related resources that covers the materials normally found in freshman- and sophomore-level introductory mathematics courses. Complex Variables, Differential Equations, and Linear Algebra is the third course in the series, consisting of 20 Videos, 3 Study Guides, and a set of Supplementary Notes. Students should have mastered the first two courses in the series (Single Variable Calculus&nbsp;and&nbsp;Multivariable Calculus) before taking this course. The series was first released in 1972, but equally valuable today for students who are learning these topics for the first time."
+        }
+      ]
+    },
+    {
+      "name": "pugh",
+      "description": "Virtual Lab of Global Agriculture",
+      "children": [
+        {
+          "name": "Atmospheric and Ocean Circulations",
+          "address": "https://ocw.mit.edu/courses/earth-atmospheric-and-planetary-sciences/12-333-atmospheric-and-ocean-circulations-spring-2004/lecture-notes/ch8_a.pdf",
+          "note": "In this course, we will look at many important aspects of the circulation of the atmosphere and ocean, from length scales of meters to thousands of km and time scales ranging from seconds to years. We will assume familiarity with concepts covered in course&#160;12.003 (Physics of the Fluid Earth). In the early stages of the present course, we will make somewhat greater use of math than did 12.003, but the math we will use is no more than that encountered in elementary electromagnetic field theory, for example. The focus of the course is on the physics of the phenomena which we will discuss."
+        },
+        {
+          "name": "Chinese VI (Streamlined)",
+          "address": "https://ocw.mit.edu/courses/global-studies-and-languages/21g-114-chinese-vi-streamlined-spring-2005/assignments/MIT21G_114S05_3_31f.pdf",
+          "note": "This course is a sequel to 21G.113 Chinese V (Streamlined). It is designed to further help students develop sophisticated conversational, reading and writing skills by combining authentic reading and audio-visual material with their own explorations of Chinese speaking societies, using the human, literary, and electronic resources available at MIT, in the Boston area and on the web. Some special features of Chinese societies, cultures and customs will be introduced. The class consists of readings, discussion, student presentations and network exploration. The course is conducted in Mandarin."
+        },
+        {
+          "name": "Physics III",
+          "address": "https://ocw.mit.edu/courses/physics/8-03-physics-iii-spring-2003/lecture-notes/lec19.pdf",
+          "note" : "Mechanical vibrations and waves, simple harmonic motion, superposition, forced vibrations and resonance, coupled oscillations and normal modes, vibrations of continuous systems, reflection and refraction, phase and group velocity. Optics, wave solutions to Maxwell's equations, polarization, Snell's law, interference, Huygens's principle, Fraunhofer diffraction, and gratings."
+        }
+      ]
+    },
+    {
+      "name": "alexander slocum",
+      "description": "Profiles of Country",
+      "children": [
+        {
+          "name": "Statistical Learning Theory and Applications",
+          "address": "https://ocw.mit.edu/courses/brain-and-cognitive-sciences/9-520-statistical-learning-theory-and-applications-spring-2003/lecture-notes/class10.pdf",
+          "note" : "Focuses on the problem of supervised learning from the perspective of modern statistical learning theory starting with the theory of multivariate function approximation from sparse data. Develops basic tools such as Regularization including Support Vector Machines for regression and classification. Derives generalization bounds using both stability and VC theory. Discusses topics such as boosting and feature selection. Examines applications in several areas: computer vision, computer graphics, text classification and bioinformatics. Final projects and hands-on applications and exercises are planned, paralleling the rapidly increasing practical uses of the techniques described in the subject."
+        },
+        {
+          "name": "Algorithmic Lower Bounds: Fun with Hardness Proofs",
+          "address": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-890-algorithmic-lower-bounds-fun-with-hardness-proofs-fall-2014/lecture-notes/MIT6_890F14_L08.pdf",
+          "note" : "6.890 Algorithmic Lower Bounds: Fun with Hardness Proofs is a class taking a practical approach to proving problems can't be solved efficiently (in polynomial time and assuming standard complexity-theoretic assumptions like P&nbsp;&ne;&nbsp;NP). The class focuses on reductions and techniques for proving problems are computationally hard for a variety of complexity classes. Along the way, the class will create many interesting gadgets, learn many hardness proof styles, explore the connection between games and computation, survey several important problems and complexity classes, and crush hopes and dreams (for fast optimal solutions)."
+        },
+        {
+          "name": "Differential Equations",
+          "address": "https://ocw.mit.edu/courses/mathematics/18-03-differential-equations-spring-2010/assignments/MIT18_03S10_pset_08.pdf",
+          "note" : "Differential Equations are the language in which the laws of nature are expressed. Understanding properties of solutions of differential equations is fundamental to much of contemporary science and engineering. Ordinary differential equations (ODE's) deal with functions of one variable, which can often be thought of as time."
+        },
+        {
+          "name": "Calculus Revisited: Complex Variables, Differential Equations, and Linear Algebra",
+          "address": "https://ocw.mit.edu/resources/res-18-008-calculus-revisited-complex-variables-differential-equations-and-linear-algebra-fall-2011/study-materials/MITRES_18_008_partI_lec01.pdf",
+          "note" : "Calculus Revisited is a series of videos and related resources that covers the materials normally found in freshman- and sophomore-level introductory mathematics courses. Complex Variables, Differential Equations, and Linear Algebra is the third course in the series, consisting of 20 Videos, 3 Study Guides, and a set of Supplementary Notes. Students should have mastered the first two courses in the series (Single Variable Calculus&nbsp;and&nbsp;Multivariable Calculus) before taking this course. The series was first released in 1972, but equally valuable today for students who are learning these topics for the first time."
+        }
+      ]
+    },
+    {
+      "name": "critical design",
+      "description": "Crop Data in 5 minutes grid",
+      "children": [
+        {
+          "name": "Calculus of Several Variables",
+          "address": "https://ocw.mit.edu/courses/mathematics/18-022-calculus-of-several-variables-fall-2010/exams/MIT18_022F10_pra_1_model.pdf",
+          "note": "This is a variation on 18.02 Multivariable Calculus. It covers the same topics as in 18.02, but with more focus on mathematical concepts."
+        },
+        {
+          "name": "Physical Metallurgy",
+          "address": "https://ocw.mit.edu/courses/materials-science-and-engineering/3-40j-physical-metallurgy-fall-2009/lecture-notes/MIT3_40JF09_fig12.pdf",
+          "note" : "The central point of this course is to provide a physical basis that links the structure of materials with their properties, focusing primarily on metals. With this understanding in hand, the concepts of alloy design and microstructural engineering are also discussed, linking processing and thermodynamics to the structure and properties of metals."
+        },
+        {
+          "name": "Dynamics and Control I",
+          "address": "https://ocw.mit.edu/courses/mechanical-engineering/2-003j-dynamics-and-control-i-spring-2007/assignments/problemset1.pdf",
+          "note": "Introduction to the dynamics and vibrations of lumped-parameter models of mechanical systems. Kinematics. Force-momentum formulation for systems of particles and rigid bodies in planar motion. Work-energy concepts. Virtual displacements and virtual work. Lagrange's equations for systems of particles and rigid bodies in planar motion. Linearization of equations of motion. Linear stability analysis of mechanical systems. Free and forced vibration of linear multi-degree of freedom models of mechanical systems; matrix eigenvalue problems. Introduction to numerical methods and MATLAB&reg; to solve dynamics and vibrations problems."
+        }
+      ]
+    }
+  ]
+}
