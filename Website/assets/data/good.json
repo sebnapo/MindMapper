@@ -1,92 +1,96 @@
 {
-  "name": "design",
-  "children": [
+  "name":"machine learning",
+  "children":[
     {
-      "name": "design process",
-      "description": "Atlas of Global Agriculture",
-      "children": [
+      "name":" university oxford",
+      "note":"coucou",
+      "address":"wikipedia.org",
+      "children":[
         {
-          "name": "Chemistry of Biomolecules I",
-          "address": "https://ocw.mit.edu/courses/chemistry/5-451-chemistry-of-biomolecules-i-fall-2005/assignments/ps2_sol.pdf",
-          "note": "5.451 is a half-semester introduction to natural product biosynthetic pathways. The course covers the assembly of complex polyketide, peptide, terpene and alkaloid structures. Discussion topics include chemical and biochemical strategies used to elucidate natural product pathways."
+          "name":"Introduction to Algorithms",
+          "note":"This course provides an introduction to mathematical modeling of computational problems. It covers the common algorithms, algorithmic paradigms, and data structures used to solve these problems. The course emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems.",
+          "address":"https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec14_orig.pdf"
         },
         {
-          "name": "Probabilistic Systems Analysis and Applied Probability",
-          "address": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/unit-iv/MIT6_041SCF13_rec22_sol.pdf",
-          "note": "This course introduces students to the modeling, quantification, and analysis of uncertainty.&nbsp; The tools of probability theory, and of the related field of statistical inference, are the keys for being able to analyze and make sense of data. These tools underlie important advances in many fields, from the basic sciences to engineering and management."
+          "name":"Probabilistic Systems Analysis and Applied Probability",
+          "note":"Welcome to 6.041/6.431, a subject on the modeling and analysis of random phenomena and processes, including the basics of statistical inference. Nowadays, there is broad consensus that the ability to think probabilistically is a fundamental component of scientific literacy. For example:      The concept of statistical significance (to be touched upon at the end of this course) is considered by the Financial Times as one of &quot;The Ten Things Everyone Should Know About Science&quot;.     A recent Scientific American article argues that statistical literacy is crucial in making health-related decisions.     Finally, an article in the New York Times identifies statistical data analysis as an upcoming profession, valuable everywhere, from Google and Netflix to the Office of Management and Budget.  The aim of this class is to introduce the relevant models, skills, and tools, by combining mathematics with conceptual understanding and intuition.",
+          "address":"https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/recitations/MIT6_041F10_rec23_sol.pdf"
         },
         {
-          "name": "Calculus Revisited: Complex Variables, Differential Equations, and Linear Algebra",
-          "address": "https://ocw.mit.edu/resources/res-18-008-calculus-revisited-complex-variables-differential-equations-and-linear-algebra-fall-2011/study-materials/MITRES_18_008_partI_sol04.pdf",
-          "note": "Calculus Revisited is a series of videos and related resources that covers the materials normally found in freshman- and sophomore-level introductory mathematics courses. Complex Variables, Differential Equations, and Linear Algebra is the third course in the series, consisting of 20 Videos, 3 Study Guides, and a set of Supplementary Notes. Students should have mastered the first two courses in the series (Single Variable Calculus&nbsp;and&nbsp;Multivariable Calculus) before taking this course. The series was first released in 1972, but equally valuable today for students who are learning these topics for the first time."
+          "name":"Probabilistic Systems Analysis and Applied Probability",
+          "note":"This course introduces students to the modeling, quantification, and analysis of uncertainty.&nbsp; The tools of probability theory, and of the related field of statistical inference, are the keys for being able to analyze and make sense of data. These tools underlie important advances in many fields, from the basic sciences to engineering and management.",
+          "address":"https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-041sc-probabilistic-systems-analysis-and-applied-probability-fall-2013/unit-iv/MIT6_041SCF13_rec23_sol.pdf"
+        },
+        {
+          "name":"Cellular Neurobiology",
+          "note":"This course serves as an introduction to the structure and function of the nervous system. Emphasis is placed on the cellular properties of neurons and other excitable cells. Topics covered include the structure and biophysical properties of excitable cells, synaptic transmission, neurochemistry, neurodevelopment, and the integration of information in simple systems and the visual system.",
+          "address":"https://ocw.mit.edu/courses/biology/7-29j-cellular-neurobiology-spring-2012/lecture-notes/MIT7_29JS12_lecture22.pdf"
         }
       ]
     },
     {
-      "name": "pugh",
-      "description": "Virtual Lab of Global Agriculture",
-      "children": [
+      "name":" learning library",
+      "note":"coucou",
+      "address":"wikipedia.org",
+      "children":[
         {
-          "name": "Atmospheric and Ocean Circulations",
-          "address": "https://ocw.mit.edu/courses/earth-atmospheric-and-planetary-sciences/12-333-atmospheric-and-ocean-circulations-spring-2004/lecture-notes/ch8_a.pdf",
-          "note": "In this course, we will look at many important aspects of the circulation of the atmosphere and ocean, from length scales of meters to thousands of km and time scales ranging from seconds to years. We will assume familiarity with concepts covered in course&#160;12.003 (Physics of the Fluid Earth). In the early stages of the present course, we will make somewhat greater use of math than did 12.003, but the math we will use is no more than that encountered in elementary electromagnetic field theory, for example. The focus of the course is on the physics of the phenomena which we will discuss."
+          "name":"Learning Seminar: Experiments in Education",
+          "note":"This seminar explores experiments in education and discusses how education and learning might be done, through reading and discussion. This seminar is not&nbsp;a survey of experiments in education, but rather, its goal is to determine how learning should happen and what kinds of contexts allow it to happen.",
+          "address":"https://ocw.mit.edu/courses/experimental-study-group/es-291-learning-seminar-experiments-in-education-spring-2003/assignments/MITES_291S03_5.pdf"
         },
         {
-          "name": "Chinese VI (Streamlined)",
-          "address": "https://ocw.mit.edu/courses/global-studies-and-languages/21g-114-chinese-vi-streamlined-spring-2005/assignments/MIT21G_114S05_3_31f.pdf",
-          "note": "This course is a sequel to 21G.113 Chinese V (Streamlined). It is designed to further help students develop sophisticated conversational, reading and writing skills by combining authentic reading and audio-visual material with their own explorations of Chinese speaking societies, using the human, literary, and electronic resources available at MIT, in the Boston area and on the web. Some special features of Chinese societies, cultures and customs will be introduced. The class consists of readings, discussion, student presentations and network exploration. The course is conducted in Mandarin."
+          "name":"Designing and Leading the Entrepreneurial Organization",
+          "note":"This subject is about building, running, and growing an organization. Subject has four central themes:  How to think analytically about designing organizational systems How leaders, especially founders, play a critical role in shaping an organization's culture What really needs to be done to build a successful organization for the long-term and What one can do to improve the likelihood of personal success.  Not a survey of entrepreneurship or leadership; subject addresses the principles of organizational architecture, group behavior and performance, interpersonal influence, leadership and motivation in entrepreneurial settings. Through a series of cases, lectures, readings and exercises students develop competencies in organizational design, human resources management, leadership and organizational behavior in the context of a new, small firm.",
+          "address":"https://ocw.mit.edu/courses/sloan-school-of-management/15-394-designing-and-leading-the-entrepreneurial-organization-spring-2003/lecture-notes/buildingalearningorganization.pdf"
         },
         {
-          "name": "Physics III",
-          "address": "https://ocw.mit.edu/courses/physics/8-03-physics-iii-spring-2003/lecture-notes/lec19.pdf",
-          "note" : "Mechanical vibrations and waves, simple harmonic motion, superposition, forced vibrations and resonance, coupled oscillations and normal modes, vibrations of continuous systems, reflection and refraction, phase and group velocity. Optics, wave solutions to Maxwell's equations, polarization, Snell's law, interference, Huygens's principle, Fraunhofer diffraction, and gratings."
+          "name":"Statistical Generalization of Robot Movement in Autoencoder Latent Space",
+          "note":"Robots have started to emerge in different environments, like for example in households and medical care.\r\nIn such environments they cannot be preprogramed for all possible tasks. One solution is to equip the\r\nrobots with the ability to learn, so they can adapt their behaviour to ever changing environments. One of\r\nthe learning approaches is imitation learning, where a robot is given human demonstrations of the desired\r\ntask execution. Typically using several demonstrations trajectories, the robot can extract suitable parameters\r\nto generate movement commands for its own motion. We used imitation learning to teach a robot to\r\naccurately throw a ball. In this case the robot is given a set of example throws and information where the\r\nball has landed. The landing positions are used as task parameters. For every new target position, the robot\r\nshould compute a new arm movement that is similar to the example movements and results in the ball\r\nhitting the target. Robot movement trajectories are described in joint coordinates. In our work we applied\r\ndeep autoencoders to learn a representation of robot movements in latent coordinates. Latent spaces are\r\nuseful because they provide a representation of robot movement in a lower dimensional space. An\r\nautoencoder is a neural networks made of an encoder and decoder part. The encoder part takes as input a\r\nconfiguration on the robot trajectory in joint space. The data are encoded through layers of the encoder\r\nnetwork, where each layer has less neurons than the previous one. From the latent space the decoder\r\nnetwork can transform latent space coordinates back to the original joint space. An autoencoder is usually\r\ntrained using backpropagation.\r\n\r\nIn our research, we applied a deep autoencoder to lower the dimensionality of robot joint space. Statistical\r\nlearning is applied to latent space representations to compute an optimal trajectory to throw a ball at a given\r\ntarget. In the first step, the example trajectories are transformed to their latent space representations and\r\nencoded with dynamic motion primitives (DMP). For every new throw, new DMP parameters in latent\r\nspace are then computed with Gaussian Process Regression (GPR) or Locally Weighted Regression (LWR).\r\nFrom the computed DMP parameters, the trajectory that can be executed by a robot can be computed using\r\nthe decoder part of the autoencoder.\r\n\r\nThe proposed method was evaluated in simulation of a three degrees of freedom planar robot, throwing a\r\nball at target located at different horizontal and vertical positions. Generalization of robotic throws was\r\nperformed using LWR and GPR. We compared the performance of statistical learning in the original robot\r\njoint space and in latent space. Statistical learning in the original joint space was in comparison with learning\r\nin latent space computationally slower, but with higher accuracy. The best accuracy was achieved with GPR\r\nin joint space.",
+          "address":"http://hydro.ijs.si/v014/2c/frsogpzin6cpbhnj3xqyjfjmufpac6sd.pdf"
         }
       ]
     },
     {
-      "name": "alexander slocum",
-      "description": "Profiles of Country",
-      "children": [
+      "name":" learning optimization",
+      "note":"coucou",
+      "address":"wikipedia.org",
+      "children":[
         {
-          "name": "Statistical Learning Theory and Applications",
-          "address": "https://ocw.mit.edu/courses/brain-and-cognitive-sciences/9-520-statistical-learning-theory-and-applications-spring-2003/lecture-notes/class10.pdf",
-          "note" : "Focuses on the problem of supervised learning from the perspective of modern statistical learning theory starting with the theory of multivariate function approximation from sparse data. Develops basic tools such as Regularization including Support Vector Machines for regression and classification. Derives generalization bounds using both stability and VC theory. Discusses topics such as boosting and feature selection. Examines applications in several areas: computer vision, computer graphics, text classification and bioinformatics. Final projects and hands-on applications and exercises are planned, paralleling the rapidly increasing practical uses of the techniques described in the subject."
+          "name":"Statistical Generalization of Robot Movement in Autoencoder Latent Space",
+          "note":"Robots have started to emerge in different environments, like for example in households and medical care.\r\nIn such environments they cannot be preprogramed for all possible tasks. One solution is to equip the\r\nrobots with the ability to learn, so they can adapt their behaviour to ever changing environments. One of\r\nthe learning approaches is imitation learning, where a robot is given human demonstrations of the desired\r\ntask execution. Typically using several demonstrations trajectories, the robot can extract suitable parameters\r\nto generate movement commands for its own motion. We used imitation learning to teach a robot to\r\naccurately throw a ball. In this case the robot is given a set of example throws and information where the\r\nball has landed. The landing positions are used as task parameters. For every new target position, the robot\r\nshould compute a new arm movement that is similar to the example movements and results in the ball\r\nhitting the target. Robot movement trajectories are described in joint coordinates. In our work we applied\r\ndeep autoencoders to learn a representation of robot movements in latent coordinates. Latent spaces are\r\nuseful because they provide a representation of robot movement in a lower dimensional space. An\r\nautoencoder is a neural networks made of an encoder and decoder part. The encoder part takes as input a\r\nconfiguration on the robot trajectory in joint space. The data are encoded through layers of the encoder\r\nnetwork, where each layer has less neurons than the previous one. From the latent space the decoder\r\nnetwork can transform latent space coordinates back to the original joint space. An autoencoder is usually\r\ntrained using backpropagation.\r\n\r\nIn our research, we applied a deep autoencoder to lower the dimensionality of robot joint space. Statistical\r\nlearning is applied to latent space representations to compute an optimal trajectory to throw a ball at a given\r\ntarget. In the first step, the example trajectories are transformed to their latent space representations and\r\nencoded with dynamic motion primitives (DMP). For every new throw, new DMP parameters in latent\r\nspace are then computed with Gaussian Process Regression (GPR) or Locally Weighted Regression (LWR).\r\nFrom the computed DMP parameters, the trajectory that can be executed by a robot can be computed using\r\nthe decoder part of the autoencoder.\r\n\r\nThe proposed method was evaluated in simulation of a three degrees of freedom planar robot, throwing a\r\nball at target located at different horizontal and vertical positions. Generalization of robotic throws was\r\nperformed using LWR and GPR. We compared the performance of statistical learning in the original robot\r\njoint space and in latent space. Statistical learning in the original joint space was in comparison with learning\r\nin latent space computationally slower, but with higher accuracy. The best accuracy was achieved with GPR\r\nin joint space.",
+          "address":"http://hydro.ijs.si/v014/2c/frsogpzin6cpbhnj3xqyjfjmufpac6sd.pdf"
         },
         {
-          "name": "Algorithmic Lower Bounds: Fun with Hardness Proofs",
-          "address": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-890-algorithmic-lower-bounds-fun-with-hardness-proofs-fall-2014/lecture-notes/MIT6_890F14_L08.pdf",
-          "note" : "6.890 Algorithmic Lower Bounds: Fun with Hardness Proofs is a class taking a practical approach to proving problems can't be solved efficiently (in polynomial time and assuming standard complexity-theoretic assumptions like P&nbsp;&ne;&nbsp;NP). The class focuses on reductions and techniques for proving problems are computationally hard for a variety of complexity classes. Along the way, the class will create many interesting gadgets, learn many hardness proof styles, explore the connection between games and computation, survey several important problems and complexity classes, and crush hopes and dreams (for fast optimal solutions)."
-        },
-        {
-          "name": "Differential Equations",
-          "address": "https://ocw.mit.edu/courses/mathematics/18-03-differential-equations-spring-2010/assignments/MIT18_03S10_pset_08.pdf",
-          "note" : "Differential Equations are the language in which the laws of nature are expressed. Understanding properties of solutions of differential equations is fundamental to much of contemporary science and engineering. Ordinary differential equations (ODE's) deal with functions of one variable, which can often be thought of as time."
-        },
-        {
-          "name": "Calculus Revisited: Complex Variables, Differential Equations, and Linear Algebra",
-          "address": "https://ocw.mit.edu/resources/res-18-008-calculus-revisited-complex-variables-differential-equations-and-linear-algebra-fall-2011/study-materials/MITRES_18_008_partI_lec01.pdf",
-          "note" : "Calculus Revisited is a series of videos and related resources that covers the materials normally found in freshman- and sophomore-level introductory mathematics courses. Complex Variables, Differential Equations, and Linear Algebra is the third course in the series, consisting of 20 Videos, 3 Study Guides, and a set of Supplementary Notes. Students should have mastered the first two courses in the series (Single Variable Calculus&nbsp;and&nbsp;Multivariable Calculus) before taking this course. The series was first released in 1972, but equally valuable today for students who are learning these topics for the first time."
+          "name":"Regression Canonical Correlation Analysis",
+          "note":"In this paper we present Regression Canonical Correlation Analysis, an extension of Canonical Correlation Analysis, where one of the dimensions is fixed and demonstrate how it can be solved efficiently. We applied the extension to the task of query translation in the context of Cross-Lingual Information Retrieval.",
+          "address":"http://hydro.ijs.si/v004/3d/hxngtov4yujsnpumlntgvcxif7kqju6r.pdf"
         }
       ]
     },
     {
-      "name": "critical design",
-      "description": "Crop Data in 5 minutes grid",
-      "children": [
+      "name":" supervised learn",
+      "note":"coucou",
+      "address":"wikipedia.org",
+      "children":[
         {
-          "name": "Calculus of Several Variables",
-          "address": "https://ocw.mit.edu/courses/mathematics/18-022-calculus-of-several-variables-fall-2010/exams/MIT18_022F10_pra_1_model.pdf",
-          "note": "This is a variation on 18.02 Multivariable Calculus. It covers the same topics as in 18.02, but with more focus on mathematical concepts."
+          "name":"Introduction to Geology",
+          "note":"Geology is the core discipline of the earth sciences and encompasses many different phenomena, including plate tectonics and mountain building, volcanoes and earthquakes, and the long-term evolution of Earth&rsquo;s atmosphere, surface and life. Because of the ever-increasing demand for resources, the growing exposure to natural hazards, and the changing climate, geology is of considerable societal relevance. This course introduces students to the basics of geology. Through a combination of lectures, labs, and field observations, we will address topics ranging from mineral and rock identification to the origin of the continents, from geologic mapping to plate tectonics, and from erosion by rivers and glaciers to the history of life.",
+          "address":"https://ocw.mit.edu/courses/earth-atmospheric-and-planetary-sciences/12-001-introduction-to-geology-fall-2013/lecture-notes-and-slides/MIT12_001F13_Lecture11slides.pdf"
         },
         {
-          "name": "Physical Metallurgy",
-          "address": "https://ocw.mit.edu/courses/materials-science-and-engineering/3-40j-physical-metallurgy-fall-2009/lecture-notes/MIT3_40JF09_fig12.pdf",
-          "note" : "The central point of this course is to provide a physical basis that links the structure of materials with their properties, focusing primarily on metals. With this understanding in hand, the concepts of alloy design and microstructural engineering are also discussed, linking processing and thermodynamics to the structure and properties of metals."
+          "name":"Atmospheric and Ocean Circulations",
+          "note":"In this course, we will look at many important aspects of the circulation of the atmosphere and ocean, from length scales of meters to thousands of km and time scales ranging from seconds to years. We will assume familiarity with concepts covered in course&#160;12.003 (Physics of the Fluid Earth). In the early stages of the present course, we will make somewhat greater use of math than did 12.003, but the math we will use is no more than that encountered in elementary electromagnetic field theory, for example. The focus of the course is on the physics of the phenomena which we will discuss.",
+          "address":"https://ocw.mit.edu/courses/earth-atmospheric-and-planetary-sciences/12-333-atmospheric-and-ocean-circulations-spring-2004/lecture-notes/ch7.pdf"
         },
         {
-          "name": "Dynamics and Control I",
-          "address": "https://ocw.mit.edu/courses/mechanical-engineering/2-003j-dynamics-and-control-i-spring-2007/assignments/problemset1.pdf",
-          "note": "Introduction to the dynamics and vibrations of lumped-parameter models of mechanical systems. Kinematics. Force-momentum formulation for systems of particles and rigid bodies in planar motion. Work-energy concepts. Virtual displacements and virtual work. Lagrange's equations for systems of particles and rigid bodies in planar motion. Linearization of equations of motion. Linear stability analysis of mechanical systems. Free and forced vibration of linear multi-degree of freedom models of mechanical systems; matrix eigenvalue problems. Introduction to numerical methods and MATLAB&reg; to solve dynamics and vibrations problems."
+          "name":"Physics I: Classical Mechanics",
+          "note":"This class is an introduction to classical mechanics for students who are comfortable with calculus. The main topics are: Vectors, Kinematics, Forces, Motion, Momentum, Energy, Angular Motion, Angular Momentum, Gravity, Planetary Motion, Moving Frames, and the Motion of Rigid Bodies.",
+          "address":"https://ocw.mit.edu/courses/physics/8-012-physics-i-classical-mechanics-fall-2008/related-resources/final_f05sol.pdf"
+        },
+        {
+          "name":"Calculus Online Textbook",
+          "note":"Published in 1991 by Wellesley-Cambridge Press, the book is a useful resource for educators and self-learners alike. It is well organized, covers single variable and multivariable calculus in depth, and is rich with applications.&nbsp; In addition to the Textbook, there is also an online Instructor's Manual and a student Study Guide. Prof. Strang has also developed a related series of videos, Highlights of Calculus, on the basic ideas of calculus.The 2010 second edition of the Calculus textbook includes a new chapter on &quot;Highlights of Calculus&quot; that connects to the video series of the same name.&nbsp; The new chapter has summaries and practice questions for all of the videos.&nbsp; It also introduces The Exponential Function (e^x) as presented in Prof. Strang's video on this topic.",
+          "address":"https://ocw.mit.edu/resources/res-18-001-calculus-online-textbook-spring-2005/textbook/MITRES_18_001_strang_9.pdf"
         }
       ]
     }

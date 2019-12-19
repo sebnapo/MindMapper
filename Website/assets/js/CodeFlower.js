@@ -16,7 +16,7 @@ var CodeFlower = function (selector, w, h) {
   this.force = d3.layout.force()
     .on("tick", this.tick.bind(this))
     .charge(function (d) { return (d._children ? -d.size / 100 : -40) * 10; })
-    .linkDistance(function (d) { return (d.target._children ? 80 : 25) * 2; })
+    .linkDistance(function (d) { return (d.target._children ? 80 : 25) * 4.5; })
     .size([h, w]);
 };
 
@@ -75,21 +75,24 @@ CodeFlower.prototype.update = async function (json) {
     })
     .on("click", (d) => {
       if (d.children){
+        console.log(d)
+        if(window.ctrlKey){
+          console.log("test")
+        }
         if(lastClick !=  null){
           console.log("bjjjj")
           lastClick = null;
         }
         lastClick = d.name
       }
-        console.log("aggregation")
+      $("#myModal .modal-body").empty()
+      $("#myModal .modal-title").empty()
+      $("#myModal .modal-title").append(d.name)
+      $("#myModal .modal-body").append(d.note)
+      $("#myModal").modal()
+      console.log("aggregation")
     })
-    .on("dblclick", (d) => {
-      if (d.children){
-        console.log("update " + d.name);
-      }
-      else
-        window.open(d.address)
-    });
+
 
 
   await sleep(2000);
@@ -102,7 +105,8 @@ CodeFlower.prototype.update = async function (json) {
       .attr('dx', nodes[i].__data__.x)
       .attr('text-anchor', 'middle')
       .style('display', null)
-      .text(nodes[i].__data__.name);
+      .text(nodes[i].__data__.name.substr(0,20));
+
   }
 
 
@@ -146,15 +150,6 @@ CodeFlower.prototype.click = function (d) {
   this.update();
 };
 
-CodeFlower.prototype.mouseover = function (d) {
-  this.text.attr('transform', 'translate(' + d.x + ',' + (d.y - 5 - (d.children ? 3.5 : Math.sqrt(d.size) / 2)) + ')')
-    .text(d.name + ": " + d.size + " loc")
-    .style('display', null);
-};
-
-CodeFlower.prototype.mouseout = function (d) {
-  this.text.style('display', 'none');
-};
 
 CodeFlower.prototype.tick = function () {
   var h = this.h;

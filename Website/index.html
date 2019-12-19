@@ -79,18 +79,38 @@
     <div id="container">
         <div id="visualization"></div>
     </div>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/myjs.js"></script>
     <script type="text/javascript">
         var currentCodeFlower;
         var createCodeFlower = function (json) {
-            var total = countElements(json);
             w = window.innerWidth;
             h = window.innerHeight * 0.75;
             currentCodeFlower = new CodeFlower("#visualization", w, h).update(json);
         };
-
+        var clean = function (){
+            currentCodeFlower.cleanup();
+        }
         d3.json('./assets/data/good.json', createCodeFlower);
 
     </script>

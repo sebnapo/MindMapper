@@ -1,0 +1,108 @@
+{
+  "name":"design",
+  "children":[
+    {
+      "name":" design process",
+      "note":"coucou",
+      "address":"wikipedia.org",
+      "children":[
+        {
+          "name":"Physics III",
+          "note":"Mechanical vibrations and waves, simple harmonic motion, superposition, forced vibrations and resonance, coupled oscillations and normal modes, vibrations of continuous systems, reflection and refraction, phase and group velocity. Optics, wave solutions to Maxwell's equations, polarization, Snell's law, interference, Huygens's principle, Fraunhofer diffraction, and gratings.",
+          "address":"https://ocw.mit.edu/courses/physics/8-03-physics-iii-spring-2003/lecture-notes/lec19.pdf"
+        },
+        {
+          "name":"Atmospheric and Ocean Circulations",
+          "note":"In this course, we will look at many important aspects of the circulation of the atmosphere and ocean, from length scales of meters to thousands of km and time scales ranging from seconds to years. We will assume familiarity with concepts covered in course&#160;12.003 (Physics of the Fluid Earth). In the early stages of the present course, we will make somewhat greater use of math than did 12.003, but the math we will use is no more than that encountered in elementary electromagnetic field theory, for example. The focus of the course is on the physics of the phenomena which we will discuss.",
+          "address":"https://ocw.mit.edu/courses/earth-atmospheric-and-planetary-sciences/12-333-atmospheric-and-ocean-circulations-spring-2004/lecture-notes/ch8_b.pdf"
+        },
+        {
+          "name":"Atmospheric and Ocean Circulations",
+          "note":"In this course, we will look at many important aspects of the circulation of the atmosphere and ocean, from length scales of meters to thousands of km and time scales ranging from seconds to years. We will assume familiarity with concepts covered in course&#160;12.003 (Physics of the Fluid Earth). In the early stages of the present course, we will make somewhat greater use of math than did 12.003, but the math we will use is no more than that encountered in elementary electromagnetic field theory, for example. The focus of the course is on the physics of the phenomena which we will discuss.",
+          "address":"https://ocw.mit.edu/courses/earth-atmospheric-and-planetary-sciences/12-333-atmospheric-and-ocean-circulations-spring-2004/lecture-notes/ch9.pdf"
+        },
+        {
+          "name":"Introduction to Neural Networks",
+          "note":"This course explores the organization of synaptic connectivity as the basis of neural computation and learning. Perceptrons and dynamical theories of recurrent networks including amplifiers, attractors, and hybrid computation are covered. Additional topics include backpropagation and Hebbian learning, as well as models of perception, motor control, memory, and neural development.",
+          "address":"https://ocw.mit.edu/courses/brain-and-cognitive-sciences/9-641j-introduction-to-neural-networks-spring-2005/lecture-notes/lec1_appendix_e.pdf"
+        }
+      ]
+    },
+    {
+      "name":" pugh",
+      "note":"coucou",
+      "address":"wikipedia.org",
+      "children":[
+        {
+          "name":"The Torch or The Firehose: A Guide to Section Teaching",
+          "note":"&ldquo;Getting an education at MIT is like trying to drink from a firehose.&rdquo; &mdash; folk saying&nbsp;The Torch or The Firehose: A Guide to Section Teaching, by MIT Mathematics Professor Arthur Mattuck, is a guide to recitation teaching at MIT. During a typical recitation section, a teaching assistant (TA) meets with a small group of students to review the most recent lecture, expand on the concepts, work through practice problems, and conduct a discussion with the students. With good humor and sound advice, Professor Mattuck offers both novice and seasoned recitation instructors guidelines on how sections can best serve as a complement to lectures, how to help students become better learners, and how to enjoy their experience as recitation teachers. Lecturers claim they have learned something from it, too. This content was first published as a printed booklet in 1981. This is the second edition. It has had a wide distribution, both at MIT and other universities, since it first appeared. It is finally available in digital format to allow broader distribution and use of this valuable material. If any significant changes are required to adapt it to the needs of another institution, please clearly notify readers that the work is modified from the orginal version and provide a link to this web site. For archival purposes, translators should notify MIT OpenCourseWare of their version.",
+          "address":"https://ocw.mit.edu/resources/res-18-004-the-torch-or-the-firehose-a-guide-to-section-teaching-spring-2009/online-publication/chapter15.pdf"
+        },
+        {
+          "name":"Calculus Revisited: Complex Variables, Differential Equations, and Linear Algebra",
+          "note":"Calculus Revisited is a series of videos and related resources that covers the materials normally found in freshman- and sophomore-level introductory mathematics courses. Complex Variables, Differential Equations, and Linear Algebra is the third course in the series, consisting of 20 Videos, 3 Study Guides, and a set of Supplementary Notes. Students should have mastered the first two courses in the series (Single Variable Calculus&nbsp;and&nbsp;Multivariable Calculus) before taking this course. The series was first released in 1972, but equally valuable today for students who are learning these topics for the first time.",
+          "address":"https://ocw.mit.edu/resources/res-18-008-calculus-revisited-complex-variables-differential-equations-and-linear-algebra-fall-2011/study-materials/MITRES_18_008_partI_sol01.pdf"
+        },
+        {
+          "name":"A tutorial on deep and unsupervised feature learning for activity recognition",
+          "note":"Recognition of human activity from video data is a challenging problem that has received an increasing amount of attention from the computer vision community in recent years. Currently the best performing methods at this task are based on engineered descriptors with explicit local geometric cues and other heuristics. Until very recently, learning has not played a major role until the classification stage, at which point much of the input is lost. It has been shown that learning features in a supervised, unsupervised, or semi-supervised setting can improve performance in other vision tasks, but most of these works have concentrated on static images rather than video. In this tutorial, we will review a number of recently proposed methods that attempt to learn low and mid-level features for use in activity recognition. This includes deep and unsupervised feature learning methods such as convolutional networks, convolutional deep belief networks and other approaches which learn sparse, overcomplete representations.",
+          "address":"http://hydro.ijs.si/v00a/43/iotqw33x4dziflh22krzodq7ihoas2zd.mp4"
+        },
+        {
+          "name":"Calculus Revisited: Complex Variables, Differential Equations, and Linear Algebra",
+          "note":"Calculus Revisited is a series of videos and related resources that covers the materials normally found in freshman- and sophomore-level introductory mathematics courses. Complex Variables, Differential Equations, and Linear Algebra is the third course in the series, consisting of 20 Videos, 3 Study Guides, and a set of Supplementary Notes. Students should have mastered the first two courses in the series (Single Variable Calculus&nbsp;and&nbsp;Multivariable Calculus) before taking this course. The series was first released in 1972, but equally valuable today for students who are learning these topics for the first time.",
+          "address":"https://ocw.mit.edu/resources/res-18-008-calculus-revisited-complex-variables-differential-equations-and-linear-algebra-fall-2011/study-materials/MITRES_18_008_partI_sol05.pdf"
+        }
+      ]
+    },
+    {
+      "name":"alexander slocum",
+      "note":"coucou",
+      "address":"wikipedia.org",
+      "children":[
+        {
+          "name":"Physical Metallurgy",
+          "note":"The central point of this course is to provide a physical basis that links the structure of materials with their properties, focusing primarily on metals. With this understanding in hand, the concepts of alloy design and microstructural engineering are also discussed, linking processing and thermodynamics to the structure and properties of metals.",
+          "address":"https://ocw.mit.edu/courses/materials-science-and-engineering/3-40j-physical-metallurgy-fall-2009/lecture-notes/MIT3_40JF09_fig12.pdf"
+        },
+        {
+          "name":"Surface Processes and Landscape Evolution",
+          "note":"The course offers an introduction to quantitative analysis of geomorphic processes, and examines the interaction of climate, tectonics, and surface processes in the sculpting of Earth's surface.",
+          "address":"https://ocw.mit.edu/courses/earth-atmospheric-and-planetary-sciences/12-163-surface-processes-and-landscape-evolution-fall-2004/lecture-notes/week3.pdf"
+        },
+        {
+          "name":"Discovery and Visual Analysis of Linked Data for Humans",
+          "note":"Linked Data has grown to become one of the largest available\r\nknowledge bases. Unfortunately, this wealth of data remains inaccessible to those without in-depth knowledge of semantic technologies. We describe a toolchain enabling users without semantic technology background to explore and visually analyse Linked Data. We demonstrate its applicability in scenarios involving data from the Linked Open Data Cloud, and research data extracted from scienti_c publications. Our focus is on the Web-based front-end consisting of querying and visualisation tools. The performed usability evaluations unveil mainly positive results confirming that the Query Wizard simplifies searching, refining and transforming Linked Data and, in particular, that people using the Visualisation Wizard quickly learn to perform interactive analysis tasks on the resulting Linked Data sets. In making Linked Data analysis effectively accessible to the general public, our tool has been integrated in a number of live services where people use it to analyse, discover and discuss facts with Linked Data.\r\n",
+          "address":"http://hydro.ijs.si/v010/dc/3ridjzu33suvmrlskirdfvmn4ilgekgo.pdf"
+        }
+      ]
+    },
+    {
+      "name":" critical design",
+      "note":"coucou",
+      "address":"wikipedia.org",
+      "children":[
+        {
+          "name":"Introduction to Probability",
+          "note":"The tools of probability theory, and of the related field of statistical inference, are the keys for being able to analyze and make sense of data. These tools underlie important advances in many fields, from the basic sciences to engineering and management. This resource is a companion site to 6.041SC Probabilistic Systems Analysis and Applied Probability. It covers the same content, using videos developed for an edX version of the course.",
+          "address":"https://ocw.mit.edu/resources/res-6-012-introduction-to-probability-spring-2018/part-i-the-fundamentals/MITRES_6_012S18_L02.pdf"
+        },
+        {
+          "name":"Atmospheric and Ocean Circulations",
+          "note":"In this course, we will look at many important aspects of the circulation of the atmosphere and ocean, from length scales of meters to thousands of km and time scales ranging from seconds to years. We will assume familiarity with concepts covered in course&#160;12.003 (Physics of the Fluid Earth). In the early stages of the present course, we will make somewhat greater use of math than did 12.003, but the math we will use is no more than that encountered in elementary electromagnetic field theory, for example. The focus of the course is on the physics of the phenomena which we will discuss.",
+          "address":"https://ocw.mit.edu/courses/earth-atmospheric-and-planetary-sciences/12-333-atmospheric-and-ocean-circulations-spring-2004/lecture-notes/ch7.pdf"
+        },
+        {
+          "name":"Calculus Revisited: Complex Variables, Differential Equations, and Linear Algebra",
+          "note":"Calculus Revisited is a series of videos and related resources that covers the materials normally found in freshman- and sophomore-level introductory mathematics courses. Complex Variables, Differential Equations, and Linear Algebra is the third course in the series, consisting of 20 Videos, 3 Study Guides, and a set of Supplementary Notes. Students should have mastered the first two courses in the series (Single Variable Calculus&nbsp;and&nbsp;Multivariable Calculus) before taking this course. The series was first released in 1972, but equally valuable today for students who are learning these topics for the first time.",
+          "address":"https://ocw.mit.edu/resources/res-18-008-calculus-revisited-complex-variables-differential-equations-and-linear-algebra-fall-2011/study-materials/MITRES_18_008_partI_sol01.pdf"
+        },
+        {
+          "name":"Neural Coding and Perception of Sound",
+          "note":"This course focuses on neural structures and mechanisms mediating the detection, localization and recognition of sounds. Discussions cover how acoustic signals are coded by auditory neurons, the impact of these codes on behavioral performance, and the circuitry and cellular mechanisms underlying signal transformations. Topics include temporal coding, neural maps and feature detectors, learning and plasticity, and feedback control. General principles are conveyed by theme discussions of auditory masking, sound localization, musical pitch, speech coding, and cochlear implants.",
+          "address":"https://ocw.mit.edu/courses/health-sciences-and-technology/hst-723j-neural-coding-and-perception-of-sound-spring-2005/lecture-notes/t2_neuronssynaps.pdf"
+        }
+      ]
+    }
+  ]
+}
